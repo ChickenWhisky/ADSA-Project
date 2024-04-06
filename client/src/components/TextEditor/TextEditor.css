@@ -1,0 +1,19 @@
+textarea::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #a1a1c1; /* Change the thumb color */
+    height: 30px;
+    border-radius: 2rem;
+  }
+
+  textarea::-webkit-scrollbar-track {
+    background-color: #c1c1f1; /* Change the track color */
+  }
+
+.dropdown-menu[aria-labelledby = ddown] {
+  background-color: lightblue;
+  color: yellow;
+  border-radius: 10px;
+}
